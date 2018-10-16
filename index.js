@@ -2,7 +2,7 @@ function CreateThings(...params) {
   params.forEach(param => this.param = param);
 }
 
-const Scooter = createThings(year, color, model);
+const Scooter = CreateThings(year, color, model);
 
 // function Scooter(year, color, model) {
 //   this.year = year;
