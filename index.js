@@ -1,4 +1,4 @@
-function createThings(...params) {
+function CreateThings(...params) {
   params.forEach(param => this.param = param);
 }
 
